@@ -11,8 +11,8 @@ function criptografar()
         arquivo:write(nova_string)
     end 
     arquivo:close()
-    --Este comando funciona apenas no windows
-    os.execute("cls")   
+    --Este comando funciona apenas no linux
+    os.execute("clear")   
 end
 
 -- Esta função exibe as hash contidas no arquivo
@@ -39,7 +39,7 @@ function menu()
         print("=====================")
         op = tonumber(io.read())
 
-        --Este comando funciona apenas no windows
+        --Este comando funciona apenas no Linux
         os.execute("cls")
         if op == 1 then
             criptografar()
