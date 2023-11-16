@@ -2,7 +2,7 @@
 
 - Este projeto foi criado para a disciplina de redes peer-to-peer, durante minha graduação.
 
-## Mas oque faz?
+## Funcionalidade
 
 - Ele criptografa strings, em MD5, e as salva em um arquivo.
 - Ele descriptografa as strings já salvas em um arquivo.  
